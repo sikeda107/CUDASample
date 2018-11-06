@@ -1,4 +1,4 @@
-CU_APPS= getDeviceProperties testStaticGlobalMemory\
+CU_APPS= getDeviceProperties testStaticGlobalMemory testMaxSizeGridBlockThread\
 
 C_APPS=
 
