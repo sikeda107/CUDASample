@@ -1,4 +1,4 @@
-CU_APPS= getDeviceProperties\
+CU_APPS= getDeviceProperties testStaticGlobalMemory\
 
 C_APPS=
 

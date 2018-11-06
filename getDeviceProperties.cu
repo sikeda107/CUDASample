@@ -7,7 +7,7 @@ int test(void);
 
 int main(int argc, char const *argv[]) {
   samples();
-  // test();
+  test();
   return 0;
 }
 /*
