@@ -1,5 +1,6 @@
-CU_APPS= getDeviceProperties testStaticGlobalMemory testMaxSizeGridBlockThread\
-
+CU_APPS= getDeviceProperties testStaticGlobalMemory testMaxSizeGridBlockThread \
+				sumMatrix2D \
+				
 C_APPS=
 
 all: ${C_APPS} ${CU_APPS}

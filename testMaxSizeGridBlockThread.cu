@@ -70,7 +70,7 @@ int main(void)
 
     grid.x = 1; grid.y = 1;
     // block.x = 204; block.y = 5; // number of threads = 1020 (< 1024) OK
-    block.x = 205; block.y = 5; // number of threads = 1025 (> 1025) NG
+    block.x = 73; block.y = 25; // number of threads = 1025 (> 1025) NG
 
     Kernel_add_one<<< grid, block >>>();
     cudaDeviceSynchronize();
