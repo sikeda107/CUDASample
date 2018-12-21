@@ -1,5 +1,5 @@
 CU_APPS= getDeviceProperties testStaticGlobalMemory testMaxSizeGridBlockThread \
-				sumMatrix1D sumMatrix2D_1 sumMatrix2D_2\
+				sumMatrix1D sumMatrix2D_1 sumMatrix2D_2 cudaMemcpyOnDevice TestcdpSimpleQuickSort\
 
 C_APPS=
 
