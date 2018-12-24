@@ -34,8 +34,8 @@ void test_qsort(){
 
   for (size_t i = 0; i < 5; i++) {
     run_qsort(&d_array[i * 50], 50);
-    cudaDeviceSynchronize();
   }
+  cudaDeviceSynchronize();
 
   cudaMemcpy(array, d_array, sizeof(array), cudaMemcpyDeviceToHost);
   printf("After\n");
