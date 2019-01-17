@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../CudaVecDouble/CudaVecDouble.h
+
+/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/src/main.cpp
+stdio.h
+-
+stdlib.h
+-
+CudaVecDouble.h
+/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/src/CudaVecDouble.h
+

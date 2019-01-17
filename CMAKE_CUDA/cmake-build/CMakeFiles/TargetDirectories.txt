@@ -1,0 +1,2 @@
+/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/cmake-build/CudaVecDouble/CMakeFiles/CudaVecDouble.dir
+/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/cmake-build/CMakeFiles/Main.dir
