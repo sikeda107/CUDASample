@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/m5211129/GitRepository/CUDASample/CLionProjects/HELLO/main.c
+/home/m5211129/GitRepository/CUDASample/CLionProjects/HELLO/c_src/main.c
 stdio.h
 -
+sumMatrix2D_1.h
+/home/m5211129/GitRepository/CUDASample/CLionProjects/HELLO/c_src/sumMatrix2D_1.h
 

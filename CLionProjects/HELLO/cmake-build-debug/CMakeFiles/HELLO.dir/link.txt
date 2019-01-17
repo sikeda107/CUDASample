@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/HELLO.dir/main.c.o  -o HELLO 
+/usr/bin/cc -O2 -Wall -g  -rdynamic CMakeFiles/HELLO.dir/c_src/main.c.o  -o HELLO -lsumMatrix2D_1 

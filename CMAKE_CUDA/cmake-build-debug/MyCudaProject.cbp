@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MyCudaProject"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\CudaVecDouble\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Main">
+				<Option output="/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/cmake-build-debug/Main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/CudaVecDouble"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/cmake-build-debug/Makefile&quot;  VERBOSE=1 Main"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Main/fast">
+				<Option output="/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/cmake-build-debug/Main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/CudaVecDouble"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/cmake-build-debug/Makefile&quot;  VERBOSE=1 Main/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CudaVecDouble">
+				<Option output="/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/cmake-build-debug/CudaVecDouble/libCudaVecDouble.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/cmake-build-debug/CudaVecDouble"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda-10.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/cmake-build-debug/CudaVecDouble/Makefile&quot;  VERBOSE=1 CudaVecDouble"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/cmake-build-debug/CudaVecDouble/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/cmake-build-debug/CudaVecDouble/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/cmake-build-debug/CudaVecDouble/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CudaVecDouble/fast">
+				<Option output="/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/cmake-build-debug/CudaVecDouble/libCudaVecDouble.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/cmake-build-debug/CudaVecDouble"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda-10.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/cmake-build-debug/CudaVecDouble/Makefile&quot;  VERBOSE=1 CudaVecDouble/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/cmake-build-debug/CudaVecDouble/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/cmake-build-debug/CudaVecDouble/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/cmake-build-debug/CudaVecDouble/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/CudaVecDouble/CudaVecDouble.cu">
+			<Option target="CudaVecDouble"/>
+		</Unit>
+		<Unit filename="/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/CudaVecDouble/CudaVecDouble.h">
+			<Option target="CudaVecDouble"/>
+		</Unit>
+		<Unit filename="/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/cmake-build-debug/CudaVecDouble/CMakeFiles/CudaVecDouble.dir/CudaVecDouble_generated_CudaVecDouble.cu.o">
+			<Option target="CudaVecDouble"/>
+		</Unit>
+		<Unit filename="/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/src/main.cpp">
+			<Option target="Main"/>
+		</Unit>
+		<Unit filename="/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA/CudaVecDouble/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CudaVecDouble\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

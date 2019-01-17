@@ -57,27 +57,27 @@ include CMakeFiles/HELLO.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/HELLO.dir/flags.make
 
-CMakeFiles/HELLO.dir/main.c.o: CMakeFiles/HELLO.dir/flags.make
-CMakeFiles/HELLO.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/m5211129/GitRepository/CUDASample/CLionProjects/HELLO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/HELLO.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/HELLO.dir/main.c.o   -c /home/m5211129/GitRepository/CUDASample/CLionProjects/HELLO/main.c
+CMakeFiles/HELLO.dir/c_src/main.c.o: CMakeFiles/HELLO.dir/flags.make
+CMakeFiles/HELLO.dir/c_src/main.c.o: ../c_src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/m5211129/GitRepository/CUDASample/CLionProjects/HELLO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/HELLO.dir/c_src/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/HELLO.dir/c_src/main.c.o   -c /home/m5211129/GitRepository/CUDASample/CLionProjects/HELLO/c_src/main.c
 
-CMakeFiles/HELLO.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HELLO.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/m5211129/GitRepository/CUDASample/CLionProjects/HELLO/main.c > CMakeFiles/HELLO.dir/main.c.i
+CMakeFiles/HELLO.dir/c_src/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HELLO.dir/c_src/main.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/m5211129/GitRepository/CUDASample/CLionProjects/HELLO/c_src/main.c > CMakeFiles/HELLO.dir/c_src/main.c.i
 
-CMakeFiles/HELLO.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HELLO.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/m5211129/GitRepository/CUDASample/CLionProjects/HELLO/main.c -o CMakeFiles/HELLO.dir/main.c.s
+CMakeFiles/HELLO.dir/c_src/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HELLO.dir/c_src/main.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/m5211129/GitRepository/CUDASample/CLionProjects/HELLO/c_src/main.c -o CMakeFiles/HELLO.dir/c_src/main.c.s
 
 # Object files for target HELLO
 HELLO_OBJECTS = \
-"CMakeFiles/HELLO.dir/main.c.o"
+"CMakeFiles/HELLO.dir/c_src/main.c.o"
 
 # External object files for target HELLO
 HELLO_EXTERNAL_OBJECTS =
 
-HELLO: CMakeFiles/HELLO.dir/main.c.o
+HELLO: CMakeFiles/HELLO.dir/c_src/main.c.o
 HELLO: CMakeFiles/HELLO.dir/build.make
 HELLO: CMakeFiles/HELLO.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/m5211129/GitRepository/CUDASample/CLionProjects/HELLO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable HELLO"

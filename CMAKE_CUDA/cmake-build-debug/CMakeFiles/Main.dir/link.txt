@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/Main.dir/src/main.cpp.o  -o Main CudaVecDouble/libCudaVecDouble.a /usr/local/cuda-10.0/lib64/libcudart_static.a -lpthread -ldl -lrt 

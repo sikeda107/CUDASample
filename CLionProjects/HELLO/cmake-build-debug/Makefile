@@ -123,32 +123,45 @@ HELLO/fast:
 	$(MAKE) -f CMakeFiles/HELLO.dir/build.make CMakeFiles/HELLO.dir/build
 .PHONY : HELLO/fast
 
-main.o: main.c.o
+#=============================================================================
+# Target rules for targets named cuda_src
 
-.PHONY : main.o
+# Build rule for target.
+cuda_src: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cuda_src
+.PHONY : cuda_src
+
+# fast build rule for target.
+cuda_src/fast:
+	$(MAKE) -f cuda_src/CMakeFiles/cuda_src.dir/build.make cuda_src/CMakeFiles/cuda_src.dir/build
+.PHONY : cuda_src/fast
+
+c_src/main.o: c_src/main.c.o
+
+.PHONY : c_src/main.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/HELLO.dir/build.make CMakeFiles/HELLO.dir/main.c.o
-.PHONY : main.c.o
+c_src/main.c.o:
+	$(MAKE) -f CMakeFiles/HELLO.dir/build.make CMakeFiles/HELLO.dir/c_src/main.c.o
+.PHONY : c_src/main.c.o
 
-main.i: main.c.i
+c_src/main.i: c_src/main.c.i
 
-.PHONY : main.i
+.PHONY : c_src/main.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/HELLO.dir/build.make CMakeFiles/HELLO.dir/main.c.i
-.PHONY : main.c.i
+c_src/main.c.i:
+	$(MAKE) -f CMakeFiles/HELLO.dir/build.make CMakeFiles/HELLO.dir/c_src/main.c.i
+.PHONY : c_src/main.c.i
 
-main.s: main.c.s
+c_src/main.s: c_src/main.c.s
 
-.PHONY : main.s
+.PHONY : c_src/main.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/HELLO.dir/build.make CMakeFiles/HELLO.dir/main.c.s
-.PHONY : main.c.s
+c_src/main.c.s:
+	$(MAKE) -f CMakeFiles/HELLO.dir/build.make CMakeFiles/HELLO.dir/c_src/main.c.s
+.PHONY : c_src/main.c.s
 
 # Help Target
 help:
@@ -159,9 +172,10 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... HELLO"
 	@echo "... edit_cache"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... cuda_src"
+	@echo "... c_src/main.o"
+	@echo "... c_src/main.i"
+	@echo "... c_src/main.s"
 .PHONY : help
 
 

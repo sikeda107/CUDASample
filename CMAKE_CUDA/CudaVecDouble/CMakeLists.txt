@@ -8,4 +8,5 @@ if(CUDA_FOUND)
         CudaVecDouble.cu
         CudaVecDouble.h
     )
+    set(CUDA_NVCC_FLAGS "-O2 -arch=sm_61 -lcudadevrt --relocatable-device-code true --ptxas-options=-v")
 endif()

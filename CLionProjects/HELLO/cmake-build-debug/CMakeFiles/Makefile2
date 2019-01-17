@@ -102,6 +102,61 @@ clean: CMakeFiles/HELLO.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory cuda_src
+
+# Convenience name for "all" pass in the directory.
+cuda_src/all: cuda_src/CMakeFiles/cuda_src.dir/all
+
+.PHONY : cuda_src/all
+
+# Convenience name for "clean" pass in the directory.
+cuda_src/clean: cuda_src/CMakeFiles/cuda_src.dir/clean
+
+.PHONY : cuda_src/clean
+
+# Convenience name for "preinstall" pass in the directory.
+cuda_src/preinstall:
+
+.PHONY : cuda_src/preinstall
+
+#=============================================================================
+# Target rules for target cuda_src/CMakeFiles/cuda_src.dir
+
+# All Build rule for target.
+cuda_src/CMakeFiles/cuda_src.dir/all:
+	$(MAKE) -f cuda_src/CMakeFiles/cuda_src.dir/build.make cuda_src/CMakeFiles/cuda_src.dir/depend
+	$(MAKE) -f cuda_src/CMakeFiles/cuda_src.dir/build.make cuda_src/CMakeFiles/cuda_src.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/m5211129/GitRepository/CUDASample/CLionProjects/HELLO/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target cuda_src"
+.PHONY : cuda_src/CMakeFiles/cuda_src.dir/all
+
+# Include target in all.
+all: cuda_src/CMakeFiles/cuda_src.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+cuda_src/CMakeFiles/cuda_src.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/m5211129/GitRepository/CUDASample/CLionProjects/HELLO/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 cuda_src/CMakeFiles/cuda_src.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/m5211129/GitRepository/CUDASample/CLionProjects/HELLO/cmake-build-debug/CMakeFiles 0
+.PHONY : cuda_src/CMakeFiles/cuda_src.dir/rule
+
+# Convenience name for target.
+cuda_src: cuda_src/CMakeFiles/cuda_src.dir/rule
+
+.PHONY : cuda_src
+
+# clean rule for target.
+cuda_src/CMakeFiles/cuda_src.dir/clean:
+	$(MAKE) -f cuda_src/CMakeFiles/cuda_src.dir/build.make cuda_src/CMakeFiles/cuda_src.dir/clean
+.PHONY : cuda_src/CMakeFiles/cuda_src.dir/clean
+
+# clean rule for target.
+clean: cuda_src/CMakeFiles/cuda_src.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

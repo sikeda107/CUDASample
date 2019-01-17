@@ -1,3 +1,6 @@
 /home/m5211129/GitRepository/CUDASample/CLionProjects/HELLO/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/m5211129/GitRepository/CUDASample/CLionProjects/HELLO/cmake-build-debug/CMakeFiles/HELLO.dir
 /home/m5211129/GitRepository/CUDASample/CLionProjects/HELLO/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/m5211129/GitRepository/CUDASample/CLionProjects/HELLO/cmake-build-debug/cuda_src/CMakeFiles/rebuild_cache.dir
+/home/m5211129/GitRepository/CUDASample/CLionProjects/HELLO/cmake-build-debug/cuda_src/CMakeFiles/cuda_src.dir
+/home/m5211129/GitRepository/CUDASample/CLionProjects/HELLO/cmake-build-debug/cuda_src/CMakeFiles/edit_cache.dir

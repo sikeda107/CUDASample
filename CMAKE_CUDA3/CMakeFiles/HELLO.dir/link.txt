@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/HELLO.dir/HELLO_generated_hello.cu.o  -o HELLO /usr/local/cuda-10.0/lib64/libcudart_static.a -lpthread -ldl -lrt -lcudadevrt 
