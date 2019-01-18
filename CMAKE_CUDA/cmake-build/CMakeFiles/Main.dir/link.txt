@@ -1,1 +1,0 @@
-/usr/bin/c++       CMakeFiles/Main.dir/src/main.cpp.o  -o Main -rdynamic CudaVecDouble/libCudaVecDouble.a /usr/local/cuda-10.0/lib64/libcudart.so -Wl,-rpath,/usr/local/cuda-10.0/lib64 

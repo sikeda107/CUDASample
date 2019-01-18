@@ -1,2 +1,0 @@
-/usr/bin/ar cr libCudaVecDouble.a  CMakeFiles/CudaVecDouble.dir/./CudaVecDouble_generated_CudaVecDouble.cu.o
-/usr/bin/ranlib libCudaVecDouble.a

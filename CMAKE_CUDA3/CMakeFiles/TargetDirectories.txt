@@ -1,3 +1,0 @@
-/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA3/CMakeFiles/rebuild_cache.dir
-/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA3/CMakeFiles/edit_cache.dir
-/home/m5211129/GitRepository/CUDASample/CMAKE_CUDA3/CMakeFiles/HELLO.dir
