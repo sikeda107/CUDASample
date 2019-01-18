@@ -142,6 +142,7 @@ void exec(){
   int iDev = 0;
   dim3 grid, block;
   cudaDeviceProp iProp;
+  cudaSetDevice(iDev);
   cudaGetDeviceProperties(&iProp, iDev);
   printf("Device %d: %s\n", iDev, iProp.name);
 
