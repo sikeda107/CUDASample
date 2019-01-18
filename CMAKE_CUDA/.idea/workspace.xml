@@ -2,8 +2,8 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="MyCudaProject" targetName="Main" />
       <config projectName="MyCudaProject" targetName="CudaVecDouble" />
+      <config projectName="MyCudaProject" targetName="Main" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -12,45 +12,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2b9af41-027c-4268-aa79-6cd019904a89" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../CLionProjects/HELLO/cuda_src/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CLionProjects/HELLO/cuda_src/sumMatrix2D_1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/CMAKE_CUDA.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLionProjects/HELLO/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CLionProjects/HELLO/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLionProjects/HELLO/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../CLionProjects/HELLO/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLionProjects/HELLO/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../CLionProjects/HELLO/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLionProjects/HELLO/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../CLionProjects/HELLO/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLionProjects/HELLO/cmake-build-debug/CMakeFiles/HELLO.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../CLionProjects/HELLO/cmake-build-debug/CMakeFiles/HELLO.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLionProjects/HELLO/cmake-build-debug/CMakeFiles/HELLO.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../CLionProjects/HELLO/cmake-build-debug/CMakeFiles/HELLO.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLionProjects/HELLO/cmake-build-debug/CMakeFiles/HELLO.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../CLionProjects/HELLO/cmake-build-debug/CMakeFiles/HELLO.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLionProjects/HELLO/cmake-build-debug/CMakeFiles/HELLO.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../CLionProjects/HELLO/cmake-build-debug/CMakeFiles/HELLO.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLionProjects/HELLO/cmake-build-debug/CMakeFiles/HELLO.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../CLionProjects/HELLO/cmake-build-debug/CMakeFiles/HELLO.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLionProjects/HELLO/cmake-build-debug/CMakeFiles/HELLO.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../CLionProjects/HELLO/cmake-build-debug/CMakeFiles/HELLO.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLionProjects/HELLO/cmake-build-debug/CMakeFiles/HELLO.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../CLionProjects/HELLO/cmake-build-debug/CMakeFiles/HELLO.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLionProjects/HELLO/cmake-build-debug/CMakeFiles/HELLO.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../CLionProjects/HELLO/cmake-build-debug/CMakeFiles/HELLO.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLionProjects/HELLO/cmake-build-debug/CMakeFiles/HELLO.dir/main.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLionProjects/HELLO/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../CLionProjects/HELLO/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLionProjects/HELLO/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../CLionProjects/HELLO/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLionProjects/HELLO/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../CLionProjects/HELLO/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLionProjects/HELLO/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../CLionProjects/HELLO/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLionProjects/HELLO/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../CLionProjects/HELLO/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLionProjects/HELLO/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../CLionProjects/HELLO/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLionProjects/HELLO/cmake-build-debug/HELLO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLionProjects/HELLO/cmake-build-debug/HELLO.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../CLionProjects/HELLO/cmake-build-debug/HELLO.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLionProjects/HELLO/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../CLionProjects/HELLO/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLionProjects/HELLO/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../CLionProjects/HELLO/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLionProjects/HELLO/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../CLionProjects/HELLO/c_src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaVecDouble/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CudaVecDouble/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build/CudaVecDouble/CMakeFiles/CudaVecDouble.dir/CudaVecDouble_generated_CudaVecDouble.cu.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build/CudaVecDouble/CMakeFiles/CudaVecDouble.dir/CudaVecDouble_generated_CudaVecDouble.cu.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build/CudaVecDouble/libCudaVecDouble.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build/CudaVecDouble/libCudaVecDouble.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build/Main" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build/Main" afterDir="false" />
-    </list>
+    <list default="true" id="c2b9af41-027c-4268-aa79-6cd019904a89" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,8 +26,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CudaVecDouble/CudaVecDouble.cu">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+            <state relative-caret-position="360">
+              <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CudaVecDouble/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -99,6 +79,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,7 +101,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -169,17 +149,18 @@
       <updated>1547720722589</updated>
       <workItem from="1547720723766" duration="137000" />
       <workItem from="1547722866245" duration="697000" />
+      <workItem from="1547785904746" duration="1392000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="834000" />
+    <option name="totallyTimeSpent" value="2226000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1602" y="187" width="2092" height="1901" extended-state="0" />
+    <frame x="523" y="138" width="2092" height="1901" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25448206" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25896415" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -215,10 +196,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build/cmake_install.cmake">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CudaVecDouble/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CudaVecDouble/CudaVecDouble.cu">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        <state relative-caret-position="360">
+          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
         </state>
       </provider>
     </entry>
